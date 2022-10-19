@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tipos de variavel</h1>
+    <script>
+        let numero = 20; //number literal
+        let nome = "Querido(a) Usuario(a)" //string(cadeia/caracter) literal
+        let SituacaoAprovado = true; //Boolean que recebe true ou false
+        let dado1 //se ñ definiu valor, será indefinido
+        let CorSelecionada = null // qdo a info será redefinida
+        let peso = prompt("Entre com seu peso")
+        let altura = prompt("Entre com sua altura")
+
+
+        let imc = ((peso/(altura * altura)).toFixed(2)); // definição de casas decimais
+
+        document.write(nome + " Seu imc é " + imc);
+
+        //let imc = peso / (Math.pow(altura,3)) exponenciação
+        // document.write("resultados" + (Math.round(imc,2)))
+
+    </script>
+</body>
+</html>
