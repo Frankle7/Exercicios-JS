@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ativ_7</title>
+</head>
+<body>
+    <h2>
+        informe seis(6) números, e esse programa ao final da leitura vai informar:
+        <br>
+        <p>
+        Que todos os números inferiores a 72 devem ser somados. 
+        <br>
+        Irá escrever o valor final da soma efetuada e também todos valores que o usuário informou.</p> 
+    </h2>
+    <script>
+        soma = 1;
+        for(i = 1; i < 7; i++)
+        {
+            num = parseInt(prompt("Digite um valor " + i));
+            if(num < 72)
+            {
+                soma += num;
+                document.write("<hr>" + "valor " + (i + 1) + " adicionado: " + num + ";   ");
+            }
+        }
+        
+
+        document.write("<hr>" + "A soma dos valores menores que 72 acima é: " + soma)
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ativ_6</title>
+</head>
+<body>
+    <h2>
+        informe dez(10) números, e esse programa  ao final da leitura vai calcular e exibir a soma total dos 10 números lidos
+    </h2>
+
+    <script>
+        soma = 1;
+        for(i = 1; i < 11; i++)
+        {
+            num = parseInt(prompt("Digite sua nota " + i));
+            soma += num;
+            document.write("<hr>" + "valor " + (i + 1) + " adicionado: " + num + ";   ");
+        }
+        
+
+        document.write("<hr>" + "Os valores acima somado é: " + soma)
+    </script>
+</body>
+</html>
